@@ -1,0 +1,59 @@
+.icon-sm
+{
+  font-size: 2rem;
+}
+
+.icon-md {
+  font-size: 5rem;
+}
+
+.image-lg {
+  height: 9rem;
+  width: 9rem;
+  object-fit: cover;
+}
+.squre-img img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.squre-img {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden; 
+}
+.avatar-md {
+  object-fit: cover;
+  height: 5rem;
+  width: 5rem;
+}
+
+.avatar-lg {
+  object-fit: cover;
+  height: 9rem;
+  width: 9rem;
+}
+
+.avatar-sm {
+  object-fit: cover;
+  height: 2rem;
+  width: 2rem;
+}
+
+.follower {
+  margin-top: 100px;
+}
+
+.followings {
+  margin-top: 100px;
+}
+
+.account {
+  height: 100px;
+}
