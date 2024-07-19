@@ -13,6 +13,8 @@ class User extends Authenticatable
     use HasFactory, Notifiable;
     use SoftDeletes;
 
+    const ADMIN_ROLE_ID =1;
+
     /**
      * The attributes that are mass assignable.
      *
